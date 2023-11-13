@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Login.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <h2>KAD-KOOKIE'S</h2>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Registrate 🍪 </h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>Ingrese sus datos</span>
+                <input type="text" placeholder="Nombre" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Registrarse</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Holaaaa, ingresa tu usuario 😚</h1>
+                <div class="social-container">
+                    <a href="https://instagram.com/winraraelexis?igshid=M2QwamN4aml0MW5j" class="social" target="_blank">
+                        <img class="instagram" src="./Img/intagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/katherin.nolasco.334?mibextid=ZbWKwL" class="social" target="_blank">
+                        <img class="facebook" src="./Img/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://wa.me/73783898" class="social" target="_blank">
+                        <img class="whatsap" src="./Img/whatsap.png" alt="LinkedIn">
+                    </a>
+                </div>
+
+                <span>Ingrese su gmail</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <a href="#">Oh nooo, olvidaste tu contraseña?</a>
+                <button onclick="loginUser">¡Vamo0ss!</button>
+
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Holis de nuevo😋!</h1>
+                    <p>Para mantenerse conectado con nosotros, inicie sesión con su información personal</p>
+                    <button class="ghost" id="signIn">Inicio</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hola, Papu :v!</h1>
+                    <p>Introduce tus datos personales y comienza tu viaje de sabores
+                        deliciosos con nosotros😋.</p>
+                    <button class="ghost" id="signUp">Registrarse</button>
+                    <!-- Agrega una etiqueta p para mostrar mensajes de error -->
+                    <p id="error-message" class="error-message"></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="Login.js"></script>
+</body>
+
+</html>
